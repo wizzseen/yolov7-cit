@@ -140,7 +140,7 @@ class ConvNeXt(Backbone):
 
         if isinstance(pretrained, str):
             self.apply(_init_weights)
-            logger.info(f'passing loading weights: {_init_weights}')
+            #logger.info(f'passing loading weights: {_init_weights}')
             # logger = get_root_logger()
             # load_checkpoint(self, pretrained, strict=False, logger=logger)
         elif pretrained is None:
