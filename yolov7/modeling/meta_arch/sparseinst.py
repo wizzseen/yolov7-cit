@@ -302,7 +302,7 @@ class SparseInst(nn.Module):
 
         # advanced select
         pred_masks = pred_masks.view(-1, pred_masks.shape[-2], pred_masks.shape[-1])
-        print_shape(keep_flt, pred_masks)
+        #print_shape(keep_flt, pred_masks)
         mask_pred_batch = pred_masks[keep_flt] # 1, 100, 160, 160
         
         h, w = max_shape
