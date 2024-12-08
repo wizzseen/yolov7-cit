@@ -4,7 +4,7 @@ import os
 import shutil
 import torch
 import os.path as osp
-from alfred import logger as LOGGER
+#from alfred import logger as LOGGER
 from torch import nn
 
 
