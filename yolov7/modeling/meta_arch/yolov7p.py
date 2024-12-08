@@ -25,7 +25,7 @@ from detectron2.utils import comm
 from detectron2.utils.logger import log_first_n
 from detectron2.modeling.backbone import build_backbone
 
-from alfred.dl.metrics.iou_loss import ciou_loss, ciou
+from alfred.deprecated.dl.metrics.iou_loss import ciou_loss, ciou
 from alfred.utils.log import logger
 from yolov7.modeling.neck.yolo_fpn import YOLOFPN
 from ..neck.yolo_pafpn import YOLOPAFPN
