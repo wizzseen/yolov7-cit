@@ -18,7 +18,7 @@ from timm.models.layers import trunc_normal_, DropPath
 
 from detectron2.modeling.backbone import Backbone, BACKBONE_REGISTRY
 from torch.utils.model_zoo import load_url as load_state_dict_from_url
-from alfred import logger
+#from alfred import logger
 from detectron2.layers import ShapeSpec
 
 
