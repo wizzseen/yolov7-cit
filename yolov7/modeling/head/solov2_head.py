@@ -2,7 +2,7 @@
 import logging
 import math
 from typing import List
-from alfred.dl.torch.common import print_tensor
+from alfred.deprecated.dl.torch.common import print_tensor
 import numpy as np
 
 import torch
