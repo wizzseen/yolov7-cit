@@ -28,10 +28,10 @@ from detectron2.utils import comm
 from detectron2.utils.logger import log_first_n
 from detectron2.modeling.backbone import build_backbone
 
-from alfred.dl.metrics.iou_loss import ciou_loss, ciou
+from alfred.deprecated.dl.metrics.iou_loss import ciou_loss, ciou
 from alfred.utils.log import logger
 
-from alfred.dl.torch.common import print_tensor, device
+from alfred.deprecated.dl.torch.common import print_tensor, device
 from alfred.vis.image.det import visualize_det_cv2_part, visualize_det_cv2_fancy
 
 from ..neck.yolo_pafpn import YOLOPAFPN
