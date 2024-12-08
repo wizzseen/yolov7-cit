@@ -34,8 +34,8 @@ MODEL:
       WITH_SPP: True
 
 DATASETS:
-  TRAIN: ("coco_2017_train",)
-  TEST: ("coco_2017_val",)
+  TRAIN: ("/kaggle/input/vinbigdata-coco-dataset-with-wbf-3x-downscaled/vinbigdata-coco-dataset-with-wbf-3x-downscaled/train_annotations.json",)
+  TEST: ("/kaggle/input/vinbigdata-coco-dataset-with-wbf-3x-downscaled/vinbigdata-coco-dataset-with-wbf-3x-downscaled/val_annotations.json",)
 
 INPUT:
   MIN_SIZE_TRAIN: (416, 512, 608, 768)
