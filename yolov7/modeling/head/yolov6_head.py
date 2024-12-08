@@ -296,7 +296,7 @@ class YOLOv6Head(nn.Module):
     def forward(self, xin, labels=None, imgs=None):
         outputs = self.det_head(xin)
         for o in outputs:
-            print_shape(o)
+          #  print_shape(o)
         if self.training:
             losses = self.compute_loss(outputs, labels)
             return losses
@@ -648,7 +648,7 @@ class ComputeLoss:
             + self.iou_weight * pair_wise_ious_loss
             + 100000.0 * (~is_in_boxes_and_center)
         )
-        print_shape(cost, pair_wise_ious, gt_classes)
+      #  print_shape(cost, pair_wise_ious, gt_classes)
 
         (
             num_fg,
