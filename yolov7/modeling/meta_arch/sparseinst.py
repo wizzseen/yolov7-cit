@@ -16,7 +16,7 @@ from ..loss.sparseinst_loss import build_sparse_inst_criterion
 # from .utils import nested_tensor_from_tensor_list
 from yolov7.utils.misc import nested_tensor_from_tensor_list
 from alfred.utils.log import logger
-from alfred import print_shape
+#from alfred import print_shape
 
 __all__ = ["SparseInst"]
 
