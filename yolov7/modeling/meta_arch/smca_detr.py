@@ -25,7 +25,7 @@ from yolov7.utils.boxes import box_cxcywh_to_xyxy, box_xyxy_to_cxcywh, convert_c
 from yolov7.utils.misc import NestedTensor, nested_tensor_from_tensor_list, is_dist_avail_and_initialized, accuracy
 
 from alfred.utils.log import logger
-from alfred.dl.torch.common import device
+from alfred.deprecated.dl.torch.common import device
 
 import pickle
 
