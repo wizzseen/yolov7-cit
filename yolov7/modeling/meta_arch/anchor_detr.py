@@ -26,7 +26,7 @@ from alfred.utils.log import logger
 from ..backbone.detr_backbone import Joiner, PositionEmbeddingSine
 from ..backbone.anchordetr_backbone import Transformer
 from .detr_seg import DETRsegm, PostProcessPanoptic, PostProcessSegm, sigmoid_focal_loss, dice_loss
-from alfred.dl.torch.common import device
+from alfred.deprecated.dl.torch.common import device
 import pickle
 
 __all__ = ["AnchorDetr"]
