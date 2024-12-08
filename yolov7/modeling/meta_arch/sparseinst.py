@@ -234,8 +234,8 @@ class SparseInst(nn.Module):
         return results
 
     def inference_onnx(self, output, batched_inputs, max_shape):
-        from alfred import print_shape
-        # max_detections = self.max_detections
+        #from alfred import print_shape
+        #max_detections = self.max_detections
         pred_scores = output["pred_logits"].sigmoid()
         pred_masks = output["pred_masks"].sigmoid()
         pred_objectness = output["pred_scores"].sigmoid()
