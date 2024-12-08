@@ -295,7 +295,7 @@ class YOLOv6Head(nn.Module):
 
     def forward(self, xin, labels=None, imgs=None):
         outputs = self.det_head(xin)
-        for o in outputs:
+        
           #  print_shape(o)
         if self.training:
             losses = self.compute_loss(outputs, labels)
